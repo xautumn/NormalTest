@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/test_1" android:duration="66"/>
+    <item android:drawable="@drawable/test_2" android:duration="66"/>
+    <item android:drawable="@drawable/test_3" android:duration="66"/>
+    <item android:drawable="@drawable/test_4" android:duration="66"/>
+    <item android:drawable="@drawable/test_5" android:duration="66"/>
+    <item android:drawable="@drawable/test_6" android:duration="66"/>
+    <item android:drawable="@drawable/test_7" android:duration="66"/>
+    <item android:drawable="@drawable/test_8" android:duration="66"/>
+    <item android:drawable="@drawable/test_9" android:duration="66"/>
+    <item android:drawable="@drawable/test_10" android:duration="66"/>
+    <item android:drawable="@drawable/test_11" android:duration="66"/>
+    <item android:drawable="@drawable/test_12" android:duration="66"/>
+    <item android:drawable="@drawable/test_13" android:duration="66"/>
+    <item android:drawable="@drawable/test_14" android:duration="66"/>
+    <item android:drawable="@drawable/test_15" android:duration="66"/>
+    <item android:drawable="@drawable/test_16" android:duration="66"/>
+    <item android:drawable="@drawable/test_17" android:duration="66"/>
+    <item android:drawable="@drawable/test_18" android:duration="66"/>
+    <item android:drawable="@drawable/test_19" android:duration="66"/>
+    <item android:drawable="@drawable/test_20" android:duration="66"/>
+    <item android:drawable="@drawable/test_21" android:duration="66"/>
+    <item android:drawable="@drawable/test_22" android:duration="66"/>
+    <item android:drawable="@drawable/test_23" android:duration="66"/>
+    <item android:drawable="@drawable/test_24" android:duration="66"/>
+    <item android:drawable="@drawable/test_25" android:duration="66"/>
+    <item android:drawable="@drawable/test_26" android:duration="66"/>
+    <item android:drawable="@drawable/test_27" android:duration="66"/>
+    <item android:drawable="@drawable/test_28" android:duration="66"/>
+</animation-list>

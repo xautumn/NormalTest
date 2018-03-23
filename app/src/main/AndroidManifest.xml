@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xtc.normaltest">
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoadingActivity" />
+        <activity android:name=".BtnWaveActivity" />
+        <activity android:name=".FrameActivity" />
+        <activity android:name=".FrameFruitActivity" />
+        <activity android:name=".ObTransActivity" />
+        <activity android:name=".ObScaleActivity" />
+        <activity android:name=".ObRotaActivity" />
+        <activity android:name=".ObAlphaActivity" />
+        <activity android:name=".MaskActivity"></activity>
+    </application>
+
+</manifest>

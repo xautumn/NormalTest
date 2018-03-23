@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.xtc.widget.test.watch.WatchActivity">
+
+        <Button
+            android:id="@+id/btn_loading"
+            style="@style/LabelButton"
+            android:onClick="onClick"
+            android:text="加载圈"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_voice"
+            style="@style/LabelButton"
+            android:onClick="onClick"
+            android:text="按钮扩散"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_frame_animation"
+            style="@style/LabelButton"
+            android:onClick="onClick"
+            android:text="都为帧动画"
+            />
+
+        <Button
+            android:id="@+id/btn_frame_fruit_animation"
+            style="@style/LabelButton"
+            android:onClick="onClick"
+            android:text="单个为帧动画" />
+        <Button
+            android:id="@+id/btn_object_trans"
+            style="@style/LabelButton"
+            android:onClick="onClick"
+            android:text="普通平移" />
+        <Button
+            android:id="@+id/btn_object_scale"
+            style="@style/LabelButton"
+            android:onClick="onClick"
+            android:text="普通缩放" />
+        <Button
+            android:id="@+id/btn_object_rota"
+            style="@style/LabelButton"
+            android:onClick="onClick"
+            android:text="普通旋转" />
+        <Button
+            android:id="@+id/btn_object_alpha"
+            style="@style/LabelButton"
+            android:onClick="onClick"
+            android:text="普通透明" />
+        <Button
+            android:id="@+id/btn_no_com"
+            style="@style/LabelButton"
+            android:onClick="onClick"
+            android:text="没蒙版综合" />
+        <Button
+            android:id="@+id/btn_mask_com"
+            style="@style/LabelButton"
+            android:onClick="onClick"
+            android:text="有蒙版综合" />
+    </LinearLayout>
+
+</ScrollView>
